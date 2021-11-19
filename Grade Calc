@@ -1,0 +1,60 @@
+
+public class Grades
+{
+    public static void main(String[ ] args)
+    { 
+        //local variables
+int numTests = 0;    //counts number of tests
+int testGrade = 0;     //individual test grade
+int totalPoints = 0;   //total points for all tests 
+double average = 0.0;  //average grade
+ 
+testGrade = 95;
+numTests++;
+totalPoints += testGrade;
+average = ((double)totalPoints / (double)numTests); 
+        System.out.print("  Test #" + numTests);
+        System.out.print("  Test Grade: " + testGrade);
+        System.out.print("  Total Points: " + totalPoints);
+        System.out.println("   Average Score: " + average);  
+
+
+testGrade = 73;
+numTests++;
+totalPoints += testGrade;
+average = ((double)totalPoints / (double)numTests); 
+        System.out.print("  Test #" + numTests);
+        System.out.print("  Test Grade: " + testGrade);
+        System.out.print("  Total Points: " + totalPoints);
+        System.out.println("  Average Score: " + average);  
+
+
+testGrade = 91;
+numTests++;
+totalPoints += testGrade;
+average = ((double)totalPoints / (double)numTests); 
+        System.out.print("  Test #" + numTests);
+        System.out.print("  Test Grade: " + testGrade);
+        System.out.print("  Total Points: " + totalPoints);
+        System.out.println("  Average Score: " + average);  
+
+
+testGrade = 82;
+numTests++;
+totalPoints += testGrade;
+average = ((double)totalPoints / (double)numTests); 
+        System.out.print("  Test #" + numTests);
+        System.out.print("  Test Grade: " + testGrade);
+        System.out.print("  Total Points: " + totalPoints);
+        System.out.println("  Average Score: " + average);     
+        
+testGrade = 100;
+numTests++;
+totalPoints += testGrade;
+average = ((double)totalPoints / (double)numTests); 
+        System.out.print("  Test #" + numTests);
+        System.out.print("  Test Grade: " + testGrade);
+        System.out.print("  Total Points: " + totalPoints);
+        System.out.println(" Average Score: " + average);  
+    }
+}
