@@ -1,0 +1,32 @@
+import java.util.Scanner;
+public class BuyMovieTickets
+{
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+        System.out.print("Enter your name (First, Last): ");
+        String firstName = in.next();
+        String lastName = in.next();
+       
+        System.out.print("\n");
+         System.out.print("Enter the date (mm/dd/yy): ");
+             String dateName = in.next();
+        System.out.print("Name of Item: ");
+                String itemName = in.next();
+        System.out.print("How many " + itemName + " are you buying?");
+        int numberName = in.nextInt();
+        System.out.print("What is the price?");
+        int priceName = in.nextInt();
+        System.out.print("Enter your debit card account number (####-######-#####)");
+        String debitName = in.next();
+        System.out.print("Enter your pin number");
+        int pinName = in.nextInt();
+        System.out.print("The total cost of your purchase is "+ numberName * priceName );
+        System.out.print("\n");
+        System.out.print("Your initial is " + firstName.charAt(0) + ".");
+        System.out.print("\n");
+        System.out.print("Debit card:" );
+        System.out.print("\n");
+        String replaceString= debitName.replace(debitName.substring(0,11),"####-######");
+System.out.println(replaceString);       
+    }
+}
