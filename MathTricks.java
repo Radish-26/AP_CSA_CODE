@@ -131,6 +131,8 @@ public class MathTrick {
            String realSubtract = String.valueOf(subtract);
            String convert = replaceLtr( realSubtract);
     String endString = reverseString(convert);
+  
+        
     System.out.println(endString);
 }
 }
