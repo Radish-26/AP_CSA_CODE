@@ -1,4 +1,3 @@
-
 public class LightV3 {
   boolean isOn;
   public LightV3(){
